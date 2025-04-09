@@ -1,0 +1,99 @@
+/* Global Styles and Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header,
+nav,
+main,
+section,
+footer {
+    padding: 1rem;
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 1.2rem;
+}
+
+/* Logo Styles */
+.logo {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Search Form Styles */
+.search-form {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 50rem;
+}
+
+.search-input {
+    width: 80%;
+    max-width: 30rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #dcdcdc;
+    border-radius: 2rem;
+}
+
+.buttons {
+    margin-top: 1rem;
+}
+
+.search-button,
+.lucky-button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+
+.search-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+.lucky-button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+}
+
+/* Section Styles */
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    padding: 1rem 0;
+}
