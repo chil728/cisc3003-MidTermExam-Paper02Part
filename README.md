@@ -1,1 +1,1 @@
-# cisc3003-MidTermExam-Paper02Part
+# CISC3003-MidTermExam-Paper02Part
